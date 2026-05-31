@@ -16,6 +16,6 @@ public class CameraController : MonoBehaviour
     {
         Vector3 playerPos = this.player.transform.position; //playerPos값을 cat의 위치로 설정
         transform.position = new Vector3(
-            transform.position.x,playerPos.y,transform.position.z);
+            transform.position.x,playerPos.y,transform.position.z); //카메라 position값을 플레이어의 x값으로 변경, y,z는 유지
     }
 }
