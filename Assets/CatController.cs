@@ -14,8 +14,8 @@ public class CatController : MonoBehaviour
     float threshold = 0.2f; // threshold값 0.2로 설정
     void Start()
     {
-        this.rigid2D = GetComponent<Rigidbody2D>();
-        this.animator = GetComponent<Animator>();
+        this.rigid2D = GetComponent<Rigidbody2D>(); //Rigidbody2D컴포넌트 불러오기
+        this.animator = GetComponent<Animator>(); //Animator컴포넌트 불러오기
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
