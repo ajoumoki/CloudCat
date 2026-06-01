@@ -8,8 +8,8 @@ public class CatController : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody2D rigid2D;
     Animator animator;
-    float jumpForce = 680.0f;
-    float walkForce = 30.0f;
+    float jumpForce = 680.0f; //jumpForceê°’ 680ìœ¼ë¡œ ì„¤ì •
+    float walkForce = 30.0f; //walkforceê°’ 30ìœ¼ë¡œ ì„¤ì •
     float maxWalkSpeed = 2.0f;
     float threshold = 0.2f;
     void Start()
@@ -20,12 +20,12 @@ public class CatController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("°í¾çÀÌ ÄÃ¸®¼Ç Ãæµ¹");
+        print("ê³ ì–‘ì´ ì»¬ë¦¬ì…˜ ì¶©ëŒ");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("°í¾çÀÌ Æ®¸®°Å Ãæµ¹");
+        print("ê³ ì–‘ì´ íŠ¸ë¦¬ê±° ì¶©ëŒ");
         SceneManager.LoadScene("ClearScene");
     }
 
