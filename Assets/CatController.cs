@@ -10,8 +10,8 @@ public class CatController : MonoBehaviour
     Animator animator;
     float jumpForce = 680.0f; //jumpForce값 680으로 설정
     float walkForce = 30.0f; //walkforce값 30으로 설정
-    float maxWalkSpeed = 2.0f;
-    float threshold = 0.2f;
+    float maxWalkSpeed = 2.0f; //maxWalkSpeed값 2로 설정
+    float threshold = 0.2f; // threshold값 0.2로 설정
     void Start()
     {
         this.rigid2D = GetComponent<Rigidbody2D>();
