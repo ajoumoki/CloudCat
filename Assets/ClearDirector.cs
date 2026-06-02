@@ -14,7 +14,7 @@ public class ClearDirector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) //만약 왼쪽 마우스를 클릭했을 때
         {
             SceneManager.LoadScene("GameScene");
         }
