@@ -16,7 +16,7 @@ public class ClearDirector : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) //만약 왼쪽 마우스를 클릭했을 때
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("GameScene"); //Ga,eScene 불러오기
         }
         
     }
