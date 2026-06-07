@@ -20,7 +20,7 @@ public class CatController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) //collision충돌이 일어날 때
     {
-        print("고양이 컬리션 충돌");
+        print("고양이 컬리션 충돌"); //고양이 컬리션 충돌 출력
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
