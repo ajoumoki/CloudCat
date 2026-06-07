@@ -18,7 +18,7 @@ public class CatController : MonoBehaviour
         this.animator = GetComponent<Animator>(); //Animator컴포넌트 불러오기
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) //collision충돌이 일어날 때
     {
         print("고양이 컬리션 충돌");
     }
