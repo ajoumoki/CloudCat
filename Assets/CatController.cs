@@ -23,7 +23,7 @@ public class CatController : MonoBehaviour
         print("고양이 컬리션 충돌"); //고양이 컬리션 충돌 출력
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //trigger충돌이 일어날 때
     {
         print("고양이 트리거 충돌");
         SceneManager.LoadScene("ClearScene");
