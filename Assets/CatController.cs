@@ -37,7 +37,7 @@ public class CatController : MonoBehaviour
             this.animator.SetTrigger("jump"); //애니메이션 jump 실행
             this.rigid2D.AddForce(transform.up * this.jumpForce); //AddForce값을 jumpForce 곱하기 up 값으로 변경
         }
-        int key = 0;
+        int key = 0; //key값을 0으로 설정
         if (Input.acceleration.x > this.threshold)
         {
         key = 1; 
