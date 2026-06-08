@@ -34,7 +34,7 @@ public class CatController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && this.rigid2D.velocity.y == 0) //만약 y가 0이고, 마우스 왼쪽 버튼을 클릭했을 때
         {
-            this.animator.SetTrigger("jump");
+            this.animator.SetTrigger("jump"); //애니메이션 jump 실행
             this.rigid2D.AddForce(transform.up * this.jumpForce);
         }
         int key = 0;
