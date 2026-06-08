@@ -32,7 +32,7 @@ public class CatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && this.rigid2D.velocity.y == 0)
+        if (Input.GetMouseButtonDown(0) && this.rigid2D.velocity.y == 0) //만약 y가 0이고, 마우스 왼쪽 버튼을 클릭했을 때
         {
             this.animator.SetTrigger("jump");
             this.rigid2D.AddForce(transform.up * this.jumpForce);
