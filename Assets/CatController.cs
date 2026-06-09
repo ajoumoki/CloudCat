@@ -40,7 +40,7 @@ public class CatController : MonoBehaviour
         int key = 0; //key값을 0으로 설정
         if (Input.acceleration.x > this.threshold) //x값의 기울기가 threshold값보다 크면
         {
-        key = 1; 
+        key = 1;  //key값을 1으로 설정
         }
         if(Input.GetKey(KeyCode.RightArrow))
         {
