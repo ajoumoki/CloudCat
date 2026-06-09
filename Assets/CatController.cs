@@ -38,7 +38,7 @@ public class CatController : MonoBehaviour
             this.rigid2D.AddForce(transform.up * this.jumpForce); //AddForce값을 jumpForce 곱하기 up 값으로 변경
         }
         int key = 0; //key값을 0으로 설정
-        if (Input.acceleration.x > this.threshold)
+        if (Input.acceleration.x > this.threshold) //x값의 기울기가 threshold값보다 크면
         {
         key = 1; 
         }
