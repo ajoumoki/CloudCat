@@ -44,7 +44,7 @@ public class CatController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.RightArrow)) //만일 오른쪽 화살표를 눌렀을 때
         {
-        key = 1; 
+        key = 1; //key값을 1로 설정
         }
         if(Input.acceleration.x < -threshold)
         {
