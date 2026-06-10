@@ -50,7 +50,7 @@ public class CatController : MonoBehaviour
         {
             key = -1; //key값을 -1로 설정
         }
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.LeftArrow)) //왼쪽 화살표 키를 눌렀을 때
         {
             key = -1;
         }
