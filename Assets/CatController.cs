@@ -52,7 +52,7 @@ public class CatController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.LeftArrow)) //왼쪽 화살표 키를 눌렀을 때
         {
-            key = -1;
+            key = -1; //key값을 -1로 설정
         }
         float speedx = Mathf.Abs(this.rigid2D.velocity.x);
         if(speedx < this.maxWalkSpeed)
