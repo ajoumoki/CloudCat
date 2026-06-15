@@ -55,7 +55,7 @@ public class CatController : MonoBehaviour
             key = -1; //key값을 -1로 설정
         }
         float speedx = Mathf.Abs(this.rigid2D.velocity.x); //speedx값을 velocity값의 절댓값으로 설정
-        if(speedx < this.maxWalkSpeed)
+        if(speedx < this.maxWalkSpeed) //speedx값이 maxWalkSpeed값보다 작으면
         {
             this.rigid2D.AddForce(transform.right * key * this.walkForce);
         }
