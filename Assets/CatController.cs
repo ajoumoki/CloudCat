@@ -59,7 +59,7 @@ public class CatController : MonoBehaviour
         {
             this.rigid2D.AddForce(transform.right * key * this.walkForce); //transform의 right값과 walkForce값과 key값의 곱만큼 힘주기
         }
-        if (key != 0)
+        if (key != 0) //만약 key가 0이 아니면
         {
             transform.localScale = new Vector3(key, 1, 1);
         }
