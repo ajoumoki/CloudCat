@@ -61,7 +61,7 @@ public class CatController : MonoBehaviour
         }
         if (key != 0) //만약 key가 0이 아니면
         {
-            transform.localScale = new Vector3(key, 1, 1);
+            transform.localScale = new Vector3(key, 1, 1); //transform의 localScale값을 key, 1, 1로 설정
         }
         this.animator.speed = speedx / 2.0f;
         if (transform.position.y < -10)
