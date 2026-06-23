@@ -63,7 +63,7 @@ public class CatController : MonoBehaviour
         {
             transform.localScale = new Vector3(key, 1, 1); //transform의 localScale값을 key, 1, 1로 설정
         }
-        this.animator.speed = speedx / 2.0f;
+        this.animator.speed = speedx / 2.0f; //애미네이터의 speed를 speedx를 2로 나눈 값으로 설정하기
         if (transform.position.y < -10)
         {
             SceneManager.LoadScene("GameScene");
