@@ -9,14 +9,14 @@ public class CloudController : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision  //ì´ ê²Œì„ì˜¤ë¸Œì íŠ¸ê°€ ì»¬ë¦¬ì…˜ ì¶©ëŒì„ í–ˆì„ë•Œ
     {
-        print("±¸¸§ ÄÃ¸®¼Ç Ãæµ¹");
+        print("êµ¬ë¦„ ì»¬ë¦¬ì…˜ ì¶©ëŒ");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("±¸¸§ Æ®¸®°Å Ãæµ¹");
+        print("êµ¬ë¦„ íŠ¸ë¦¬ê±° ì¶©ëŒ");
     }
 
     // Update is called once per frame
